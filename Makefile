@@ -1,11 +1,11 @@
-all: add-nbo
+all: add_nbo
 
-add-nbo: add-nbo.o
-	gcc -Wall -o add-nbo add-nbo.o
+add-nbo: add_nbo.o
+	gcc -Wall -o add_nbo add-nbo.o
 
-add-nbo.o: add-nbo.c
-	gcc -Wall -c add-nbo.c
+add-nbo.o: add_nbo.c
+	gcc -Wall -c add_nbo.c
 
 clean:
-	rm -f add-nbo *.o
+	rm -f add_nbo *.o
 
